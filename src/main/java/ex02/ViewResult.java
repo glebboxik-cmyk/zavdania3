@@ -14,7 +14,7 @@ public class ViewResult implements View {
             double m = Math.random() * 10;
             double v = Math.random() * 10;
             double h = Math.random() * 10;
-            double res = (m * v * v) / 2 + (m * 9.81 * h); // Твоя формула енергії
+            double res = (m * v * v) / 2 + (m * 9.81 * h); 
             items.add(new Item2d(m, v, h, res));
         }
     }
